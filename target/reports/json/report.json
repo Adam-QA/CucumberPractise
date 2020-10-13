@@ -1,0 +1,166 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3679383700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PractiseSelenium.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Browse the items available on the website",
+        "description": "",
+        "id": "shopping-on-a-website-as-a-person-i-want-to-browse-items-on-a-website-so-that-i-can-purchase-the-items-i-want;browse-the-items-available-on-the-website",
+        "after": [
+          {
+            "result": {
+              "duration": 620906000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PractiseSelenium.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11553446300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the correct web address",
+            "match": {
+              "location": "PractiseSelenium.we_can_open_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 481556800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the \u0027Menu\u0027 page",
+            "match": {
+              "location": "PractiseSelenium.we_search_for_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22524300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I can browse a list of the available products.",
+            "match": {
+              "location": "PractiseSelenium.website_will_return_list_of_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3118150800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PractiseSelenium.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Add an item to the checkout",
+        "description": "",
+        "id": "shopping-on-a-website-as-a-person-i-want-to-browse-items-on-a-website-so-that-i-can-purchase-the-items-i-want;add-an-item-to-the-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 607719800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PractiseSelenium.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10812514300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the correct web address",
+            "match": {
+              "location": "PractiseSelenium.we_can_open_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406325900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to the \u0027Menu\u0027 page",
+            "match": {
+              "location": "PractiseSelenium.we_search_for_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10513788200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the checkout button",
+            "match": {
+              "location": "PractiseSelenium.i_click_the_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22002100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am taken to the checkout page",
+            "match": {
+              "location": "PractiseSelenium.i_am_taken_to_the_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping on a website As a person I want to browse items on a website So that I can purchase the items I want",
+    "description": "",
+    "id": "shopping-on-a-website-as-a-person-i-want-to-browse-items-on-a-website-so-that-i-can-purchase-the-items-i-want",
+    "keyword": "Feature",
+    "uri": "tea.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Test3"
+      }
+    ]
+  }
+]

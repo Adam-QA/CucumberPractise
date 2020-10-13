@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="41.838318">
+    <testcase classname="Shopping on a website As a person I want to browse items on a website So that I can purchase the items I want" name="Browse the items available on the website" time="16.357817">
+        <system-out><![CDATA[Given the correct web address...............................................passed
+When I navigate to the 'Menu' page..........................................passed
+Then I can browse a list of the available products..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Shopping on a website As a person I want to browse items on a website So that I can purchase the items I want" name="Add an item to the checkout" time="25.480501">
+        <system-out><![CDATA[Given the correct web address...............................................passed
+When I navigate to the 'Menu' page..........................................passed
+When I click the checkout button............................................passed
+Then I am taken to the checkout page........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

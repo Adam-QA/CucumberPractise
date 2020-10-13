@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: hellocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.619 sec <<< FAILURE!
+Sunday isn't Friday(Is it Friday yet?)  Time elapsed: 0.127 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at hellocucumber.StepDefinitions.today_is_Sunday(StepDefinitions.java:13)
+	at ?.today is Sunday(classpath:hellocucumber/is_it_friday_yet.feature:5)
+
